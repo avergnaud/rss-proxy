@@ -48,5 +48,5 @@ app.get('/rss/:id', cors(corsOptions), function (req, res, next) {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function () {
-  console.log('CORS-enabled web server listening on port 3000')
+  console.log(`CORS-enabled web server listening on port ${PORT}`)
 })
